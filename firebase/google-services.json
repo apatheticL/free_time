@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "701480698873",
+    "project_id": "freetime-e43e6",
+    "storage_bucket": "freetime-e43e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701480698873:android:9e469f1649193617ed3328",
+        "android_client_info": {
+          "package_name": "com.sea.freetime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701480698873-mr3pecpm4cgnvjn6ntjmktv0pgg2tbpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sea.freetime",
+            "certificate_hash": "111a42c7c741489644d6ecdc91f3a9ef1e594924"
+          }
+        },
+        {
+          "client_id": "701480698873-c2qq0m56ha9kfmfiunt0gfl0uii68gep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6VS2sAvpLOYrTyqcFro-gxTTKHGsU6-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701480698873-c2qq0m56ha9kfmfiunt0gfl0uii68gep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
