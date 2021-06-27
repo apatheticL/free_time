@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:freetime/src/business_logic/helper/constants/route_constant.dart';
 import 'package:freetime/src/business_logic/helper/route/routes.dart';
 import 'package:freetime/src/business_logic/helper/theme/theme_config.dart';
+import 'package:freetime/src/view/widgets/dashboard_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,8 +29,9 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'iCONS',
+      home: DashboardView(),
       theme: themeConfig(),
-      initialRoute: RouteConstant.SPLASH_SCREEN,
+      initialRoute: RouteConstant.ROOT,
       routes: routeConfig(),
     );
   }
